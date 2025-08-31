@@ -1,0 +1,4 @@
+# MinGW/MSYS2 terminal:
+gcc producer_consumer.c -o pc -lpthread
+./pc 3 8 1
+# Tryck Ctrl-C för att avsluta mjukt (städar upp & summerar)
