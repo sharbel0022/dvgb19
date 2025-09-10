@@ -1,0 +1,11 @@
+filename:
+vmsim.c
+
+kompilerara
+gcc -O2 -std=c11 -Wall -Wextra -o vmsim.exe vmsim.c
+
+körning
+.\vmsim.exe -a fifo -n 3 -f trace.dat
+testa LRU och Optimal:
+.\vmsim.exe -a lru -n 3 -f trace.dat
+.\vmsim.exe -a optimal -n 3 -f trace.dat
